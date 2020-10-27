@@ -94,7 +94,7 @@ function start() {
     
     case "kóða":
       const num = Number(prompt('`Hversu mikið á að hliðra streng? Gefðu upp heiltölu á bilinu [1, 31]`'));
-      if(num == null||num == 0){
+      if(num === null || num === 0){
         return null;
        }
       if ( 1 <= num && num <= 31 ) {
@@ -130,7 +130,7 @@ function start() {
           isEmpty(str, adferd, num2);
           isValid(str, adferd, num2);
           let utkoma =decode(str, num2);
-          alert(`Strengurinn sem átti ${adferd} er  með hliðrun ${num2} er ${utkoma}`);
+          alert(`Strengurinn: ${strengur} sem átti ${adferd} er  með hliðrun um  ${num2} verður ${utkoma}`);
           myFunction();
         } else {
           alert(`${num2} er ekki heiltala á bilinu [1, 31]. Reyndu aftur.`); 
