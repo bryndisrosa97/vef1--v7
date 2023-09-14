@@ -1,4 +1,4 @@
-# Verkefni 7
+# Caesar cipher
 
 ## Lýsing
 
